@@ -1,4 +1,3 @@
-// Sorry.
 package uuid
 
 import (
@@ -14,9 +13,7 @@ const (
 
 type UUID satori.UUID
 
-var (
-	Nil = UUID{}
-)
+var Nil = UUID{}
 
 var (
 	_ bson.Getter              = (*UUID)(nil)
